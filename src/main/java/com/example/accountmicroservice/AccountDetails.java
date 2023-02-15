@@ -2,7 +2,7 @@ package com.example.accountmicroservice;
 
 public class AccountDetails {
 
-   private User user;
+   private String userEmail;
 
    private boolean bankAccountActive;
 
@@ -10,12 +10,12 @@ public class AccountDetails {
 
     private Integer accountNumber;
 
-    public User getUser() {
-        return user;
+    public String getUserEmail() {
+        return userEmail;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
     }
 
     public boolean isBankAccountActive() {
